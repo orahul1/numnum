@@ -1,0 +1,23 @@
+{
+  "name": "numnum",
+  "version": "1.0.0",
+  "description": "Bunch of number operations and methods",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/orahul1/numnum.git"
+  },
+  "keywords": [
+    "number",
+    "number-javascript"
+  ],
+  "author": "Rahul Raveendran",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/orahul1/numnum/issues"
+  },
+  "homepage": "https://github.com/orahul1/numnum#readme"
+}

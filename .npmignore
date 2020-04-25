@@ -1,0 +1,11 @@
+node_modules
+src
+test
+.editorconfig
+.eslintrc.json
+.gitignore
+.travis.yml
+demo.json
+package-lock.json
+package.json
+tsconfig.json

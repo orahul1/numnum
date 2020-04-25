@@ -1,0 +1,45 @@
+{
+  "name": "numnum",
+  "version": "1.0.0",
+  "description": "Bunch of number operations and methods",
+  "main": "lib/numnum.js",
+  "types": "lib/numnum.d.ts",
+  "publishConfig":{"registry":"https://www.npmjs.com/package/numnum",  "access": "public"},
+  "scripts": {
+    "lint": "eslint src/**/*.ts",
+    "lint:fix": "prettier-eslint $PWD'src/**/*.ts' --write",
+    "start": "tsc -w && npm run lint",
+    "dev": "nodemon demo.js",
+    "build": "tsc -b && npm run lint:fix && npm run test",
+    "test": "mocha --reporter spec"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/orahul1/numnum.git"
+  },
+  "author": "Rahul Raveendran",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/orahul1/numnum/issues"
+  },
+  "homepage": "https://github.com/orahul1/numnum#readme",
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^2.29.0",
+    "@typescript-eslint/parser": "^2.29.0",
+    "chai": "^4.2.0",
+    "eslint": "^6.8.0",
+    "eslint-config-standard": "^14.1.1",
+    "eslint-plugin-import": "^2.20.2",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-promise": "^4.2.1",
+    "eslint-plugin-standard": "^4.0.1",
+    "mocha": "^7.1.1",
+    "nodemon": "^2.0.2",
+    "prettier-eslint": "^9.0.1",
+    "prettier-eslint-cli": "^5.0.0",
+    "typescript": "3.8.3"
+  },
+  "resolutions": {
+    "terser": "3.14.1"
+  }
+}
